@@ -32,3 +32,31 @@ h3{
 .t_intent{
     text-indent: 160px;
 }
+.b_shadow{
+    box-shadow: 10px 10px,8px red;
+    width:250px;
+}
+.d_shadow{
+    filter:drop-shadow(4px 6px 5px red(24,256,193));
+    width:259px;
+}
+
+.t_color{
+    color:aqua;
+
+}
+
+#t_size{
+    font-size: 20px;
+}
+#t_shadow{
+     text-shadow:10px 5px 6px blue;
+}
+
+.t_shadow{
+    text-shadow: 10px 5px 5px red;
+}
+
+.t_bg{
+    background-color: blue;
+}
