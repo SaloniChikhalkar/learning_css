@@ -1,0 +1,43 @@
+h1{
+    color:blueviolet;
+}
+
+h1:hover{
+    color: blueviolet;
+    font-size: 50px;
+    background-color: beige;
+}
+
+img{
+    border: 5px solid black;
+    width: 500px;
+    height: 400px;
+}
+img:hover{
+    border: 5px double blue;
+    box-shadow: 3px 4px 6px red;
+}
+input:focus{
+    background-color: black;
+    color: aliceblue;
+
+}
+a:visited{
+    color:blueviolet;
+}
+h2:active{
+    color:red;
+    text-transform: uppercase;
+}
+p::first-letter{
+    color: blueviolet;
+    font-size: 50px;
+}
+p::first-line{
+    color:bisque;
+
+}
+p::selection{
+    color: bisque;
+    background-color: black;
+}

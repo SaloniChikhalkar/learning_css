@@ -1,0 +1,72 @@
+.hall{
+    position: relative;
+    width:400px;
+    height:400px;
+    top: 60px;
+    left:250px;
+    background-color:violet;
+}
+
+#tv{
+    position: absolute;
+    height:30px;
+    width:100px;
+    top:10px;
+    left:120px;
+    background-color: black;
+}
+
+#sofa{
+    position: absolute;
+    height:50px;
+    width:200px;
+    top:150px;
+    left:100px;
+    background-color: burlywood;
+}
+
+#fridge{
+    position: absolute;
+    height:100px;
+    width: 50px;
+    right: 20px;
+    bottom: 20px;
+    background-color: navy;
+}
+
+#table{
+    position: absolute;
+    height:60px;
+    width:60px;
+    left:20px;
+    bottom:20px;
+    background-color: brown;
+}
+
+.chair1{
+    position: absolute;
+    height:50px;
+    width: 50px;
+    top:100px;
+    left:80px;
+    background-color: burlywood;
+}
+
+.chair2{
+    position: absolute;
+    height:50px;
+    width: 50px;
+    top:100px;
+    right:80px;
+    background-color: burlywood;
+}
+
+#table2{
+    height:30px;
+    width:40px;
+    top:200px;
+    left:100px;
+    background-color: bisque;
+}
+
+

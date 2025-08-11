@@ -60,3 +60,27 @@ h3{
 .t_bg{
     background-color: blue;
 }
+.box_model{
+    border:4px solid yellow;
+    padding:120px;
+    margin:100px;
+}
+
+.box_model1{
+    border:4px solid red;
+    padding:12px 45px 60px 70px;
+    margin:40px 30px 20px 50px;
+}
+.box_model2{
+    border:4px solid navy;
+    padding:120px;
+    margin:100px;
+    height:250px;
+    width:300px;
+}
+.box_model3{
+    border:4px solid rgb(0, 115, 128);
+    padding:50px 20px 50px 20px;
+    margin:100px 120px 100px 120px;
+}
+

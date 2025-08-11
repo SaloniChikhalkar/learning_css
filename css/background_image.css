@@ -1,0 +1,21 @@
+body{
+    background-image: url("/images/cssimg3.jpg");
+    background-size: cover;
+    background-color: darkslateblue;
+    height: 400px;
+    width: 600px;
+}
+.text1{
+    text-align: center;
+}
+
+.backimg1{
+    height:500px;
+    background-image: url("/images/cssimg1.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 500px;
+}
+.hello{
+    font-size: 120px;
+}

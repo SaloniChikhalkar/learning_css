@@ -1,0 +1,19 @@
+.flex-container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+        }
+        .flex-items img{
+             background-color: darkblue;
+            margin: 10px;
+            width: 400px;
+            height: 200px;
+            color: aliceblue;
+            text-align: center;
+            font-size: 40px;
+            display: flex;
+            justify-items: center;
+            box-shadow: 5px 10px gray;
+        }
+        
