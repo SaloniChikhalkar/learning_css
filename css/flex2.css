@@ -7,17 +7,12 @@
         .flex-items img{
              background-color: darkblue;
             margin: 10px;
-            width: 400px;
-            height: 200px;
+            width: 200px;
+            height: 150px;
             color: aliceblue;
             text-align: center;
             font-size: 40px;
             display: flex;
             justify-items: center;
-            box-shadow: 5px 10px gray;
-            transition: transform 5s ease;
-        }
-        img:hover{
-            transform: scale(1.5);
         }
         

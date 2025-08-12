@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+            align-items: center;
+            
+    }
+    .box{
+         background-color: palevioletred;
+            margin: 10px;
+            width: 300px;
+            height: 200px;
+            border-radius: 20px;
+            color: aliceblue;
+            text-align: center;
+            font-size: 40px;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            transition: transform 5s ease;
+            animation: mysecondanimation;
+            animation-duration: 3s;
+
+    }
+    .box1:hover{
+        transform: rotateY(180deg);
+    }
+     .box2:hover{
+        transform: rotateY(180deg);
+    }
+     .box3:hover{
+        transform: rotateY(180deg);
+    }
+     .box4:hover{
+        transform: rotateY(180deg);
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="box box1">1</div>
+            <div class="box box2">2</div>
+            <div class="box box3">3</div>
+            <div class="box box4">4</div> 
+    </div>
+</body>
+</html>
