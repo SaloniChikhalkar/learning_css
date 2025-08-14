@@ -1,0 +1,36 @@
+ul{
+    width: 200px;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 900px;
+}
+
+li{
+    padding: 10px;
+    border: 2px solid rgb(45, 36, 53);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+li:nth-child(even){
+    background-color: rgb(201, 93, 150);
+}
+
+li:nth-child(odd){
+    background-color: rgb(68, 96, 118);
+}
+li:hover{
+    background-color: brown;
+}
+
+li:first-child{
+    background-color: bisque;
+}
+
+li:last-child{
+    background-color: bisque;
+}
+
+li:nth-child(7){
+    background-color: cornflowerblue;
+}
